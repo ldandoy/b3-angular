@@ -1,21 +1,21 @@
 # Agence
 
 Création d'un projet:
-ng new <Nom du projet>
+ng new Agence
 
 Lancer le server:
 ng serve
 
-Création d'un composant:
-ng generate component components/<Nom du composant>
-
 Création d'une interface:
-ng g i interfaces/<Nom de l'interface>
+ng g i interfaces/Todo
 
 Création d'un service:
-ng g s services/<Nom du service>
+ng g s services/todos
 
-Refaire la même chose pour list-todos
+Création d'un composant:
+ng generate component components/list-todos
+
+Refaire la même chose pour les posts
 
 Créé un composant Home
 
