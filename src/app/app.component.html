@@ -1,10 +1,12 @@
-<h1>{{ title }}</h1>
+<main class="container">
+    <h1><a class="contrast" [routerLink]="['/']">{{ title }}</a></h1>
 
-<nav>
-    <ul>
-        <li><a [routerLink]="['/']">Liste posts</a></li>
-        <li><a [routerLink]="['/todos']">Liste todos</a></li>
-    </ul>
-</nav>
+    <nav>
+        <ul class="container">
+            <li><a class="contrast" [routerLink]="['/posts']">Liste posts</a></li>
+            <li><a class="contrast" [routerLink]="['/todos']">Liste todos</a></li>
+        </ul>
+    </nav>
 
-<router-outlet></router-outlet>
+    <router-outlet></router-outlet>
+</main>
